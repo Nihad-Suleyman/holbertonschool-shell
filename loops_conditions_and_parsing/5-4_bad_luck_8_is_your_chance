@@ -5,7 +5,7 @@ while [ "$i" -lt 10 ]
 do
    if [ "$i" -eq 3 ]; then
       echo -e "bad luck\nBest School"
-   elif [ "$i" -eq 7 ]; then
+   elif [ "$i" -eq 8 ]; then
       echo -e "good luck\nBest School"
    else 
       echo "Best School"
