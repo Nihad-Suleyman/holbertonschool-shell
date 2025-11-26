@@ -4,9 +4,9 @@ i=0
 while [ "$i" -lt 10 ]
 do
    if [ "$i" -eq 4 ]; then
-      echo "bad luck\n Best School"
+      echo -e "bad luck\nBest School"
    elif [ "$i" -eq 8 ]; then
-      echo "good luck\n Best School"
+      echo -e "good luck\nBest School"
    else 
       echo "Best School"
    fi
