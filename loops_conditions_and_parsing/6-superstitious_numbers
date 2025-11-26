@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#comment 23
+i=0
+while [ "$i" -lt 20 ]
+do
+   if [ "$i" -eq 4 ]; then
+      echo -e "$i\nbad luck from China"
+   elif [ "$i" -eq 8 ]; then
+      echo -e "$i\nbad luck from Japan"
+   elif [ "$i" -eq 16 ]; then
+      echo -e "$i\nbad luck from Italy"
+   else
+      echo "$i"
+   fi
+   i=$((i+1))
+done
