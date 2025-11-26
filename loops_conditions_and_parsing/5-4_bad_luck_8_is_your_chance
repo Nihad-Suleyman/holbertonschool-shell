@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #comment 23
 i=0 
-while [ "$i" -le 11 ]
+while [ "$i" -lt 10 ]
 do
    if [ "$i" -eq 4 ]; then
       echo "bad luck\n Best School"
@@ -10,4 +10,5 @@ do
    else 
       echo "Best School"
    fi
+   i=$((i+1))
 done 
