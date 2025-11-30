@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#comment sad
+while [ ! SIGINT ]
+do
+	printf("To infinity and beyond\n")
+done
+printf("^C")
