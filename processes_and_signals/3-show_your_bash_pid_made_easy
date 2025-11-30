@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#comment 32
+cat proc/status | less | grep bash
