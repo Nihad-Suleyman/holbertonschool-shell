@@ -1,0 +1,4 @@
+#!usr/bin/env bash
+#comment sad
+# shellcheck disable=SC2009
+ls /proc |less
